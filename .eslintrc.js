@@ -32,6 +32,10 @@ module.exports = {
     ],
     'import/prefer-default-export': 'off',
     'semi': [2, "never"],
-    'space-before-function-paren': ['error', 'never']
+    'space-before-function-paren': ["error", {
+      "anonymous": "never",
+      "named": "never",
+      "asyncArrow": "always"
+    }]
   }
 }
